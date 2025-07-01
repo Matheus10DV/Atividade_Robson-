@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulário com Tabela</title>
+  <link rel="stylesheet" href="forulario.css">
+</head>
+          <div class="container">
+            <h2>Cadastro de Pessoas</h2>
+            <form id="meuFormulario">
+              <label for="nome">Nome:</label> <input type="text" id="nome">
+              <label for="email">Email:</label> <input type="email" id="email">
+              <label for="idade">Idade:</label> <input type="number" id="idade">
+              <label for="endereco">Endereço:</label> <input type="text" id="endereco">
+              <label for="estado">Estado:</label> <input type="text" id="estado">
+              <label for="pais">País:</label> <input type="text" id="pais">
+              <button type="button" onclick="adicionarNaTabela()">Adicionar</button>
+            </form>
+            <table id="tabela">
+              <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Idade</th>
+                <th>Endereço</th>
+                <th>Estado</th>
+                <th>País</th>
+              </tr>
+            </table>
+          </div>
+          <script src="formulario.JS"></script>
+        </body>
+        </html>
+        <th>Email</th>
+        <th>Idade</th>
+      </tr>
+    </table>
+  </div>
+  <script src="formulario.JS"></script>
+</body>
+</html>

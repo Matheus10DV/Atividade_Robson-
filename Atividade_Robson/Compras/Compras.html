@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista de Compras</title>
+  <link rel="stylesheet" href="Compras.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Lista de Compras</h2>
+    <form id="formCompra">
+      <label for="item">Item:</label>
+      <input type="text" id="item" placeholder="Ex: Arroz">
+      <label for="quantidade">Quantidade:</label>
+      <input type="number" id="quantidade" min="1" placeholder="1">
+      <button type="button" onclick="adicionarItem()">Adicionar</button>
+    </form>
+    <table id="tabela">
+      <tr>
+        <th>Item</th>
+        <th>Quantidade</th>
+        <th>Ação</th>
+      </tr>
+    </table>
+  </div>
+  <script src="Compras.js"></script>
+</body>
+</html>

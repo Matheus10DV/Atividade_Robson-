@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Validador de Formulário</title>
+  <link rel="stylesheet" href="v.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Validador de Formulário</h2>
+    <form id="formulario" onsubmit="return validarFormulario()">
+      <label for="nome">Nome Completo:</label>
+      <input type="text" id="nome">
+      <span id="erroNome" class="erro"></span>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email">
+      <span id="erroEmail" class="erro"></span>
+
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha">
+      <span id="erroSenha" class="erro"></span>
+
+      <label for="confirmar">Confirmar Senha:</label>
+      <input type="password" id="confirmar">
+      <span id="erroConfirmar" class="erro"></span>
+
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="mensagemSucesso"></p>
+  </div>
+  <script src="v.js"></script>
+</body>
+</html>
